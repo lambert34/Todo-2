@@ -11,3 +11,14 @@ priority.onclick = function () {
         priority.textContent = 'Обычная задача'
     }
 };
+
+form.onsubmit = function(evt) {
+    evt.preventDeafault();
+    let newElement = document.createElement('li');
+    newElement.textContent = input.value;
+    input.value = '';
+    if (priority.classList.contains('is-important')) {
+        newElement.classList.add('is-important');
+    };
+    list.append(newElement);
+}
