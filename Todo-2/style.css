@@ -61,6 +61,7 @@ body {
     line-height: 12px;
     color: #5c8bf0;
 }
+
 .todo-input {
     margin-bottom: 12px;
     padding: 10px 12px;
@@ -70,7 +71,8 @@ body {
     border-radius: 4px;
     border: 1px solid #5c8bf0;
 }
-.todo-priority. {
+
+.todo-priority {
     position: relative;
     padding: 12px 22px 12px 44px;
 }
@@ -79,6 +81,7 @@ body {
     font-weight: bold;
     color: #f98f2d;
 }
+
 .todo-add {
     padding: 12px 22px;
     color: #fff;
